@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="System Context Diagram" id="spotify-plus-context">
+    <mxGraphModel dx="1219" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;" value="&lt;b&gt;Enhanced Spotify Features: Michael Prospero, Kyle Core, Heet Sheth&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="listener" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;" value="&lt;b&gt;Listener&lt;/b&gt;&lt;br&gt;User" vertex="1">
+          <mxGeometry height="520" width="110" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fontSize=14;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;" value="&lt;b&gt;Spotify Plus&lt;/b&gt;&lt;br&gt;System" vertex="1">
+          <mxGeometry height="520" width="140" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="artist" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;" value="&lt;b&gt;Artist&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="810" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="apple" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fontSize=14;fillColor=#F1EFE8;strokeColor=#5F5E5A;fontColor=#444441;" value="&lt;b&gt;Apple Music&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="810" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="in0" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.1154;exitDx=0;exitDy=0;entryX=0;entryY=0.1154;entryDx=0;entryDy=0;" target="system" value="Login credentials">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="in1" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.1846;exitDx=0;exitDy=0;entryX=0;entryY=0.1846;entryDx=0;entryDy=0;" target="system" value="Search and play requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in2" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2538;exitDx=0;exitDy=0;entryX=0;entryY=0.2538;entryDx=0;entryDy=0;" target="system" value="Time range, new-song filter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in3" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3231;exitDx=0;exitDy=0;entryX=0;entryY=0.3231;entryDx=0;entryDy=0;" target="system" value="Playlist creation request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in4" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3923;exitDx=0;exitDy=0;entryX=0;entryY=0.3923;entryDx=0;entryDy=0;" target="system" value="Home and profile layout">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in5" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.4615;exitDx=0;exitDy=0;entryX=0;entryY=0.4615;entryDx=0;entryDy=0;" target="system" value="Discovery mode filters">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="in6" edge="1" parent="1" source="listener" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5308;exitDx=0;exitDy=0;entryX=0;entryY=0.5308;entryDx=0;entryDy=0;" target="system" value="Transfer request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out0" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.6385;exitDx=0;exitDy=0;entryX=1;entryY=0.6385;entryDx=0;entryDy=0;" target="listener" value="Music stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out1" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7077;exitDx=0;exitDy=0;entryX=1;entryY=0.7077;entryDx=0;entryDy=0;" target="listener" value="Listening stats, rankings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out2" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7769;exitDx=0;exitDy=0;entryX=1;entryY=0.7769;entryDx=0;entryDy=0;" target="listener" value="Customized home, profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out3" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.8462;exitDx=0;exitDy=0;entryX=1;entryY=0.8462;entryDx=0;entryDy=0;" target="listener" value="Discovery mode songs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out4" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.9154;exitDx=0;exitDy=0;entryX=1;entryY=0.9154;entryDx=0;entryDy=0;" target="listener" value="Playlist and transfer status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="art_in" edge="1" parent="1" source="artist" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.4615;exitDx=0;exitDy=0;entryX=1;entryY=0.1154;entryDx=0;entryDy=0;" target="system" value="Track uploads, metadata">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="art_out" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.1846;exitDx=0;exitDy=0;entryX=0;entryY=0.7385;entryDx=0;entryDy=0;" target="artist" value="Play counts, listener stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="am_out" edge="1" parent="1" source="system" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.7308;exitDx=0;exitDy=0;entryX=0;entryY=0.3000;entryDx=0;entryDy=0;" target="apple" value="Playlists to export">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="am_in" edge="1" parent="1" source="apple" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeWidth=1.5;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.6600;exitDx=0;exitDy=0;entryX=1;entryY=0.8000;entryDx=0;entryDy=0;" target="system" value="Playlists and tracks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="rounded=1;arcSize=10;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#3C3489;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="40" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="System" vertex="1">
+          <mxGeometry height="20" width="90" x="60" y="609" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=1;arcSize=10;html=1;fillColor=#E1F5EE;strokeColor=#0F6E56;fontColor=#085041;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="160" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="Primary users" vertex="1">
+          <mxGeometry height="20" width="110" x="180" y="609" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;arcSize=10;html=1;fillColor=#F1EFE8;strokeColor=#5F5E5A;fontColor=#444441;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="300" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" value="External system" vertex="1">
+          <mxGeometry height="20" width="130" x="320" y="609" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
